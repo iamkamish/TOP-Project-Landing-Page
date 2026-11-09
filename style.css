@@ -10,10 +10,10 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    background: #1F2937;
     color: #E5E7EB;
+    padding: 40px 150px;
 }
 
 .logo {
@@ -25,10 +25,66 @@ ul {
     list-style: none;
     display: flex;
     gap: 24px;
+    margin: 0;
+    padding: 0;
 }
 
 a {
     font-size: 18px;
     color: #E5E7EB;
     text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px;
+    gap: 32px;
+}
+
+.hero-text-button {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 8px;
+}
+
+.hero-main-text {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: gray;
+    color: #F9FAF8;
+    width: 50%;
+}
+
+button {
+    padding: 8px 24px;
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10px;
+    text-align: center;
+    color: #F9FAF8;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.header,
+.hero-section {
+    background: #1F2937;
 }
