@@ -74,14 +74,18 @@ a {
 
 button {
     padding: 8px 24px;
-    background-color: #3882F6;
     border: 0;
     border-radius: 10px;
     text-align: center;
-    color: #F9FAF8;
     font-family: Roboto, sans-serif;
     font-size: 18px;
     font-weight: 600;
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.cta-button button {
+    border: 2px solid #F9FAF8;
 }
 
 .header,
@@ -152,4 +156,30 @@ button {
 .quote-from {
     text-align: right;
     font-size: 26px;
+}
+
+.cta-section {
+    background: #3882F6;
+    display: flex;
+    gap: 12px;
+    margin: 100px 150px;
+    padding: 50px 100px;
+    color: #F9FAF8;
+    border-radius: 10px;
+}
+
+.cta-heading {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cta-heading-text {
+    font-size: 18px;
+}
+
+.cta-button {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 33%;
 }
